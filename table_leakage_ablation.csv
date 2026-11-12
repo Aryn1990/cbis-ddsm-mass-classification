@@ -1,0 +1,5 @@
+model,split,acc,auc
+ResNet50 (frozen),patient-level split (correct),0.699 [0.673-0.726],0.760 [0.732-0.788]
+ResNet50 (frozen),record-level split (leakage),0.702 [0.676-0.729],0.760 [0.732-0.787]
+ResNet50 (FT layer4),patient-level split (correct),0.731 [0.708-0.753],0.785 [0.760-0.809]
+ResNet50 (FT layer4),record-level split (leakage),0.738 [0.714-0.762],0.802 [0.779-0.827]

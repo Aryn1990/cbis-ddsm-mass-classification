@@ -1,0 +1,9 @@
+comparison,metric,diff,ci95,p_boot
+ResNet50 (frozen) - Simple CNN (scratch),acc,+0.152,"[+0.118, +0.186]",0.0
+ResNet50 (frozen) - Simple CNN (scratch),auc,+0.178,"[+0.140, +0.214]",0.0
+ResNet50 (frozen) - CNN+BN (scratch),acc,+0.116,"[+0.082, +0.147]",0.0
+ResNet50 (frozen) - CNN+BN (scratch),auc,+0.160,"[+0.124, +0.196]",0.0
+ResNet50 (FT layer4) - ResNet50 (frozen),acc,+0.032,"[+0.009, +0.054]",0.005
+ResNet50 (FT layer4) - ResNet50 (frozen),auc,+0.025,"[+0.003, +0.048]",0.03
+ResNet50 (FT layer3+4) - ResNet50 (FT layer4),acc,-0.002,"[-0.022, +0.019]",0.832
+ResNet50 (FT layer3+4) - ResNet50 (FT layer4),auc,+0.007,"[-0.010, +0.025]",0.427
